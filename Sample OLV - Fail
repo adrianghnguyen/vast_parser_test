@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+ <Ad id="491456054">
+  <InLine>
+   <AdSystem>DCM</AdSystem>
+   <AdTitle>In-Stream Video</AdTitle>
+   <Error><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=200015;]]></Error>
+   <Impression><![CDATA[https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjsvW4GTzlHSiaEaFnmuRsbAb3Po3LKYjcHfGSNYnPA7wDleW6AmGBAYcD_xzUDEDZ0KS4WCROytmsvxEQpr9zb6q-lIFCgNoYmH9o1vDtumMQEcuLJbKzE8&sig=Cg0ArKJSzFOueW-PQEfwEAE&urlfix=1&adurl=]]></Impression>
+   <Creatives>
+    <Creative id="147859230" sequence="1">
+     <Linear>
+      <Duration>00:00:15</Duration>
+      <TrackingEvents>
+       <Tracking event="start"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=11;]]></Tracking>
+       <Tracking event="firstQuartile"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=960584;]]></Tracking>
+       <Tracking event="midpoint"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=18;]]></Tracking>
+       <Tracking event="thirdQuartile"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=960585;]]></Tracking>
+       <Tracking event="complete"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=13;]]></Tracking>
+       <Tracking event="mute"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=16;]]></Tracking>
+       <Tracking event="unmute"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=149645;]]></Tracking>
+       <Tracking event="pause"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=15;]]></Tracking>
+       <Tracking event="fullscreen"><![CDATA[https://ade.googlesyndication.com/ddm/activity/dc_oe=ChMIm7nhhb287wIVS89kCh0p1QheEAAYACCezsBG;met=1;ecn1=1;etm1=0;eid1=19;]]></Tracking>
+      </TrackingEvents>
+      <VideoClicks>
+       <ClickThrough><![CDATA[https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvW4GTzlHSiaEaFnmuRsbAb3Po3LKYjcHfGSNYnPA7wDleW6AmGBAYcD_xzUDEDZ0KS4WCROytmsvxEQpr9zb6q-lIFCgNoYmH9o1vDtumMQEcuLJbKzE8&sig=Cg0ArKJSzKbY_8Hs-IUxEAE&urlfix=1&adurl=https://www.nintendo.com/games/detail/monster-hunter-rise-switch/]]></ClickThrough>
+      </VideoClicks>
+      <MediaFiles>
+       <MediaFile delivery="progressive" width="176" height="144" type="video/3gpp" bitrate="53" scalable="false" maintainAspectRatio="false"><![CDATA[https://gcdn.2mdn.net/videoplayback/id/1466a2c1fe4f1ec8/itag/17/source/doubleclick_dmm/ctier/L/ip/0.0.0.0/ipbits/0/expire/3760465469/sparams/id,itag,source,ctier,ip,ipbits,expire/signature/7EBCF6C04F1B6E8E4F1722852BC8CE88B14D7047.82F09F50C80FDA183F004465AE84551C21A8151C/key/ck2/file/file.3gpp]]></MediaFile>
+       <MediaFile delivery="progressive" width="320" height="180" type="video/3gpp" bitrate="192" scalable="false" maintainAspectRatio="false"><![CDATA[https://gcdn.2mdn.net/videoplayback/id/1466a2c1fe4f1ec8/itag/36/source/doubleclick_dmm/ctier/L/ip/0.0.0.0/ipbits/0/expire/3760465409/sparams/id,itag,source,ctier,ip,ipbits,expire/signature/5E6AA67DCEA36040D2F94C39899312929418F6CA.12B90C773B4376BA43401160653C3340E4503361/key/ck2/file/file.3gpp]]></MediaFile>
+       <MediaFile delivery="progressive" width="640" height="360" type="video/mp4" bitrate="406" scalable="false" maintainAspectRatio="false"><![CDATA[https://gcdn.2mdn.net/videoplayback/id/1466a2c1fe4f1ec8/itag/18/source/doubleclick_dmm/ctier/L/acao/yes/ip/0.0.0.0/ipbits/0/expire/3760465385/sparams/id,itag,source,ctier,acao,ip,ipbits,expire/signature/30595CE329AC38395AD4AF77CA58D6B04501CF57.6DBCD931FF5205137F5B47DC0CA8A4AAC9CD8B14/key/ck2/file/file.mp4]]></MediaFile>
+      </MediaFiles>
+     </Linear>
+    </Creative>
+   </Creatives>
+   <Extensions><Extension type="geo"><Country>US</Country><Bandwidth>4</Bandwidth><BandwidthKbps>6260</BandwidthKbps></Extension><Extension type="dart"><AdServingData><DeliveryData><GeoData><![CDATA[ct=US&st=TX&city=13368&dma=102&zp=75025&bw=4]]></GeoData></DeliveryData></AdServingData></Extension></Extensions>
+  </InLine>
+ </Ad>
+</VAST>

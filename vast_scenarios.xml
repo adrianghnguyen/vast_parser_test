@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+ <Ad id="67890">
+  <InLine>
+   <AdSystem>Some Ad System</AdSystem>
+   <AdTitle>In-Stream Video</AdTitle>
+   <Error><![CDATA[]]></Error>
+   <Impression><![CDATA[]]></Impression>
+   <Creatives>
+    <Creative id="12345" sequence="1">
+     <Linear>
+      <Duration>00:00:15</Duration>
+
+      <VideoClicks>
+       <ClickThrough><![CDATA[https://www.samsungads.com]]></ClickThrough>
+      </VideoClicks>
+
+      <MediaFiles>
+       <!-- ###### CTV ###### -->
+       <!-- 1920x1080 -->
+       <!-- Valid -->    <MediaFile width="1920" height="1080" type="video/mp4"  bitrate="5000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="1920" height="1080" type="video/mp4"  bitrate="10000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1920" height="1080" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1920" height="1080" type="video/mp4"  bitrate="11000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- 1280x720 -->
+       <!-- Valid -->    <MediaFile width="1280" height="720" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="1280" height="720" type="video/mp4"  bitrate="7000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1280" height="720" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1280" height="720" type="video/mp4"  bitrate="11000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- 854x480 -->
+       <!-- Valid -->    <MediaFile width="854" height="480" type="video/mp4"  bitrate="1500" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="854" height="480" type="video/mp4"  bitrate="20000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="854" height="480" type="video/mp4"  bitrate="1400" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- 640x360 -->
+       <!-- Valid -->    <MediaFile width="640" height="360" type="video/mp4"  bitrate="1500" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="640" height="360" type="video/mp4"  bitrate="20000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="640" height="360" type="video/mp4"  bitrate="1400" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- ###### OLV ###### -->
+       <!-- 1920x1080 -->
+       <!-- Valid -->    <MediaFile width="1920" height="1080" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="1920" height="1080" type="video/mp4"  bitrate="20000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1920" height="1080" type="video/mp4"  bitrate="3000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- 1280x720 -->
+       <!-- Valid -->    <MediaFile width="1280" height="720" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="1280" height="720" type="video/mp4"  bitrate="20000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="1280" height="720" type="video/mp4"  bitrate="3000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+       <!-- 854x480 -->
+       <!-- Valid -->    <MediaFile width="854" height="480" type="video/mp4"  bitrate="4000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Valid -->    <MediaFile width="854" height="480" type="video/mp4"  bitrate="20000"><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Not Valid --><MediaFile width="854" height="480" type="video/mp4"  bitrate="3000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+
+
+       <!-- ###### VPAID ###### -->
+       <MediaFile apiFramework="VPAID"><![CDATA[https://hello.com/file.js]]></MediaFile>
+
+       <!-- ###### Full Not Valid ###### -->
+       <!-- Not Valid --><MediaFile width="176" height="144" type="video/3gpp" bitrate="53"><![CDATA[https://hello.com/video.3gpp]]></MediaFile>
+      </MediaFiles>
+
+     </Linear>
+    </Creative>
+   </Creatives>
+  </InLine>
+ </Ad>
+</VAST>

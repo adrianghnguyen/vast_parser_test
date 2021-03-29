@@ -3,7 +3,7 @@
        <!-- Valid -->    <MediaFile width="1920" height="1080" type="video/mp4"  bitrate="5000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
 
        <!-- 1280x720 -->
-       <!-- Not Valid --><MediaFile width="1280" height="720" type="video/mp4"  bitrate="3000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
+       <!-- Partial --><MediaFile width="1280" height="720" type="video/mp4"  bitrate="3000" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
 
        <!-- 854x480 -->
        <!-- Valid -->    <MediaFile width="854" height="480" type="video/mp4"  bitrate="1500" ><![CDATA[https://hello.com/file.mp4]]></MediaFile>
